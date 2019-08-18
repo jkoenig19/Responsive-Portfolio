@@ -1,0 +1,693 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../Images/white-waves.png");
+    background-repeat: repeat;
+}
+
+section {
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+#namebox {
+    width: 220px;
+    height: 80px;
+    margin-left: 150px;
+    background: #4aaaa5;
+}
+
+#name {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#about {
+    position: relative;
+    bottom: 50px;
+    left: 892px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#verticalline1 {
+    position: relative;
+    top: -69px;
+    left: 949px;
+    border-left: 1px solid #efefef;
+    height: 18px;
+}
+
+#portfolio {
+    position: relative;
+    bottom: 86px;
+    margin-left: 962px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#verticalline2 {
+    position: relative;
+    top: -105px;
+    left: 1035px;
+    border-left: 1px solid #efefef;
+    height: 18px;
+}
+
+#contact {
+    position: relative;
+    bottom: 122px;
+    margin-left: 1048px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#aboutmebox {
+    margin-left: 150px;
+    margin-top: 35px;
+    width: 960px;
+    height: 445px;
+    background: white;
+    border: 1px solid #dddddd;
+}
+
+#portfoliobox {
+    margin-left: 150px;
+    margin-top: 35px;
+    width: 960px;
+    height: 780px;
+    background: white;
+    border: 1px solid #dddddd;
+}
+
+#contactbox {
+    margin-left: 150px;
+    margin-top: 35px;
+    width: 960px;
+    height: 465px;
+    background: white;
+    border: 1px solid #dddddd;
+}
+
+#aboutme {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 18px;
+    color: #4aaaa5;
+}
+
+#aboutmeline {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.changeprofile {
+    max-height: 25%;
+    max-width: 25%;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+#lefttext {
+    position: relative;
+    bottom: 250px;
+    left: 260px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.8;
+    margin-left: 18px;
+    margin-right: 280px;
+    color: #777777;
+}
+
+#bottomtext {
+    position: relative;
+    bottom: 259px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.8;
+    margin-left: 18px;
+    margin-right: 10px;
+    color: #777777;
+}
+
+#hangmanimage {
+    margin-top: 35px;
+    margin-left: 18px;
+}
+
+#rpgimage {
+    position: relative;
+    top: -250px;
+    left: 280px;
+    margin-top: 35px;
+    margin-left: 18px;
+}
+
+#triviaimage {
+    position: relative;
+    top: -300px;
+    margin-top: 35px;
+    margin-left: 18px;
+}
+
+#widgetimage {
+    position: relative;
+    top: -549px;
+    left: 280px;
+    margin-top: 35px;
+    margin-left: 18px;
+}
+
+#rockimage {
+    position: relative;
+    top: -600px;
+    margin-top: 35px;
+    margin-left: 18px;
+}
+
+#portfolioview {
+    position: relative;
+    bottom: 62px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 16px 85px;
+}
+
+#rpggame {
+    position: relative;
+    bottom: 62px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 16px 78px;
+}
+
+#trivia {
+    position: relative;
+    bottom: 62px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 16px 76px;
+}
+
+#widget {
+    position: relative;
+    bottom: 62px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 16px 49px;
+}
+
+#rock {
+    position: relative;
+    bottom: 62px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 16px 45px;
+}
+
+.contactinfo1 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 18px;
+    color: #777777;
+}
+
+#nameinput, #email {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 5px;
+    height: 25px;
+    color: #777777;
+}
+
+#contactinfo2 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 18px;
+    color: #777777;
+}
+
+#message {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 5px;
+    color: #777777;
+    border: 1px solid #dddddd;
+}
+
+#submit {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    border: none;
+    margin-left: 18px;
+    color: #ffffff;
+    padding: 8px 24px;
+}
+
+#footer {
+    margin-top: 100px;
+    border-top: 8px solid #4aaaa5;
+}
+
+#copyright {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 35px;
+    padding-bottom: 7px;
+    color: #cccccc;
+    background: #666666;
+}
+
+@media screen and (max-width: 980px){
+    #namebox {
+        margin-left: 35px;
+    }
+    
+    #about {
+        position: relative;
+        left: 727px;
+    }
+    
+    #verticalline1 {
+        position: relative;
+        left: 784px;
+    }
+    
+    #portfolio {
+        position: relative;
+        margin-left: 796px;
+    }
+    
+    #verticalline2 {
+        position: relative;
+        left: 869px;
+    }
+    
+    #contact {
+        position: relative;
+        margin-left: 882px;
+    }
+    
+    #aboutmebox {
+        margin-left: 35px;
+        width: 635px;
+        height: 520px;
+    }
+    
+    #portfoliobox {
+        margin-left: 35px;
+        width: 635px;
+        height: 890px;
+    }
+    
+    #contactbox {
+        margin-left: 35px;
+        width: 635px;
+        height: 465px;
+    }
+    
+    .changeprofile {
+        float: left;
+    }
+    
+    #lefttext {
+        position: relative;
+        bottom: -11px;
+        left: 18px;
+        width: 599px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    #bottomtext {
+        position: relative;
+        bottom: 0px;
+    }
+    
+    .portfolioimage {
+        height: 47%;
+        width: 47%;
+    }
+    
+    #rpgimage {
+        position: relative;
+        top: -282px;
+        left: 309px;
+    }
+    
+    #triviaimage {
+        position: relative;
+        top: -350px;
+    }
+    
+    #widgetimage {
+        position: relative;
+        top: -632px;
+        left: 309px;
+    }
+    
+    #rockimage {
+        position: relative;
+        top: -700px;
+    }
+    
+    #portfolioview {
+        padding: 16px 110px;
+    }
+    
+    #rpggame {
+        padding: 16px 103px;
+    }
+    
+    #trivia {
+        padding: 16px 101px;
+    }
+    
+    #widget {
+        padding: 16px 74px;
+    }
+    
+    #rock {
+        padding: 16px 70px;
+    }
+
+    #nameinput {
+        width: 96%
+    }
+
+    #email {
+        width: 96%;
+    }
+
+    #message {
+        width: 96%;
+    }
+} 
+
+@media screen and (max-width: 768px){
+    #namebox {
+        margin-left: 18px;
+    }
+    
+    #about {
+        position: relative;
+        left: 542px;
+    }
+    
+    #verticalline1 {
+        position: relative;
+        left: 599px;
+    }
+    
+    #portfolio {
+        position: relative;
+        margin-left: 612px;
+    }
+    
+    #verticalline2 {
+        position: relative;
+        left: 685px;
+    }
+    
+    #contact {
+        position: relative;
+        margin-left: 698px;
+    }
+    
+    #aboutmebox {
+        margin-left: 18px;
+        width: 732px;
+        height: 630px;
+    }
+    
+    #portfoliobox {
+        margin-left: 18px;
+        width: 732px;
+        height: 890px;
+    }
+    
+    #contactbox {
+        margin-left: 18px;
+        width: 732px;
+        height: 465px;
+    }
+    
+    .changeprofile {
+        float: left;
+        max-height: 50%;
+        max-width: 50%;
+    }
+    
+    #lefttext {
+        position: relative;
+        bottom: -11px;
+        left: 18px;
+        width: 696px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    #bottomtext {
+        position: relative;
+        bottom: 0px;
+    }
+    
+    .portfolioimage {
+        height: 47%;
+        width: 47%;
+    }
+    
+    #rpgimage {
+        position: relative;
+        top: -313px;
+        left: 360px;
+    }
+    
+    #triviaimage {
+        position: relative;
+        top: -375px;
+    }
+    
+    #widgetimage {
+        position: relative;
+        top: -689px;
+        left: 360px;
+    }
+    
+    #rockimage {
+        position: relative;
+        top: -752px;
+    }
+    
+    #portfolioview {
+        padding: 16px 133px;
+    }
+    
+    #rpggame {
+        padding: 16px 126px;
+    }
+    
+    #trivia {
+        padding: 16px 124px;
+    }
+    
+    #widget {
+        padding: 16px 97px;
+    }
+    
+    #rock {
+        padding: 16px 93px;
+    }
+
+    #nameinput {
+        width: 97%
+    }
+
+    #email {
+        width: 97%;
+    }
+
+    #message {
+        width: 97%;
+    }
+
+} 
+
+@media screen and (max-width: 640px){
+    section {
+        position: static;
+        height: 137px;
+    }
+
+    #namebox {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    #about {
+        position: relative;
+        bottom: -20px;
+        left: 220px;
+    }
+    
+    #verticalline1 {
+        position: relative;
+        top: 1px;
+        left: 277px;
+    }
+    
+    #portfolio {
+        position: relative;
+        bottom: 16px;
+        margin-left: 290px;
+    }
+    
+    #verticalline2 {
+        position: relative;
+        top: -35px;
+        left: 363px;
+    }
+    
+    #contact {
+        position: relative;
+        bottom: 52px;
+        margin-left: 376px;
+    }
+    
+    #aboutmebox {
+        margin-left: 18px;
+        margin-top: 18px;
+        width: 604px;
+        height: 1060px;
+    }
+    
+    #portfoliobox {
+        margin-left: 18px;
+        margin-top: 18px;
+        width: 604px;
+        height: 2400px;
+    }
+    
+    #contactbox {
+        margin-left: 18px;
+        margin-top: 18px;
+        width: 604px;
+        height: 465px;
+    }
+    
+    .changeprofile {
+        float: none;
+        max-height: 94%;
+        max-width: 94%;
+        margin-top: 18px;
+        margin-left: 18px;
+    }
+    
+    #lefttext {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        width: 576px;
+        margin-left: 18px;
+        margin-right: 10px;
+    }    
+    
+    #bottomtext {
+        position: relative;
+        bottom: 0px;
+        margin-left: 18px;
+        margin-right: 10px;
+    }
+    
+    .portfolioimage {
+        height: 97%;
+        width: 97%;
+    }
+    
+    #rpgimage {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #triviaimage {
+        position: relative;
+        top: 0px;
+    }
+    
+    #widgetimage {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #rockimage {
+        position: relative;
+        top: 0px;
+    }
+    
+    #portfolioview {
+        padding: 16px 249px;
+    }
+    
+    #rpggame {
+        padding: 16px 242px;
+    }
+    
+    #trivia {
+        padding: 16px 240px;
+    }
+    
+    #widget {
+        padding: 16px 213px;
+    }
+    
+    #rock {
+        padding: 16px 209px;
+    }
+    
+    #nameinput {
+        width: 96%
+    }
+
+    #email {
+        width: 96%;
+    }
+
+    #message {
+        width: 96%;
+    }
+} 
